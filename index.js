@@ -7,7 +7,7 @@ require("dotenv").config();
 var corsOptions = {
     origin: 'https://cocktail-vault.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'HEAD', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Origin', 'X-Requested-With', 'Accept', 'x-client-key', 'x-client-token', 'x-client-secret', 'Authorization'],
+    allowedHeaders: ['Content-Type', 'Origin', 'auth-token'],
     optionSuccessStatus: 200
 };
 
