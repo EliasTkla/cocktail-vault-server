@@ -5,7 +5,7 @@ require("dotenv").config();
 
 //cors setup
 var corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://cocktail-vault.vercel.app/',
     optionSuccessStatus: 200
 };
 
