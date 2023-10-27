@@ -6,6 +6,7 @@ require("dotenv").config();
 //cors setup
 var corsOptions = {
     origin: 'https://cocktail-vault.vercel.app/',
+    credentials: true,
     optionSuccessStatus: 200
 };
 
