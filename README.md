@@ -1,1 +1,3 @@
 # cocktail-vault-server
+
+server
